@@ -1,5 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Header from "./Header/Header";
+import ProductList from "./ProductList/ProductList";
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <Header></Header>
+        <ProductList></ProductList>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -18,7 +22,6 @@ function App() {
           Learn React
         </a>
       </header>
-      <header>jerome challet</header>
     </div>
   );
 }
