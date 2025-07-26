@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Header from "./Header/Header";
 import ProductList from "./ProductList/ProductList";
+import { ListElement } from "./ProductList/ProductList";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <Header></Header>
+        <ListElement></ListElement>
         <ProductList></ProductList>
         <a
           className="App-link"
